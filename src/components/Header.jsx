@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import reactLogo from '../assets/react.svg';
+import bcp_logo from '../assets/bcp.png';
 
 const Header = () => {
   return (
@@ -7,11 +7,11 @@ const Header = () => {
       <div className="container mx-auto flex justify-between items-end">
         <div className="flex items-center">
           <Link to="/" className="logo" title="INICIO">
-            <img src={reactLogo} alt="LABEL 2020" className="w-8 h-8 mr-2 object-contain" />
+            <img src={bcp_logo} alt="LABEL 2020" className="w-16 h-16 mr-2 object-contain" style={{ maxHeight: '2rem' }} />
           </Link>
         </div>
         <div className="slogan text-xl">
-          <span className="h2">SCAN & CHECK</span>
+          <span className="h2">BCBVERDE</span>
         </div>
       </div>
     </header>
