@@ -8,6 +8,8 @@ const IntroduzcaElModelo = () => {
   const [products, setProducts] = useState([]);
   const [type, setType] = useState('');
   const [message, setMessage] = useState('');
+  const [bestChoise, setBestChoise] = useState('');
+
 
   const handleFormSubmit = (data) => {
     const key = `${data.providerName} ${data.modelIdentifier}`;
@@ -16,6 +18,7 @@ const IntroduzcaElModelo = () => {
       setProducts(result.products);
       setType(result.type);
       setMessage(result.products.find(product => product.message)?.message || '');
+      setBestChoise(result.products.find(product => product.advice)?.advice || '');
     }
   };
 
@@ -24,7 +27,7 @@ const IntroduzcaElModelo = () => {
       <ProductForm onSubmit={handleFormSubmit} />
       {products.length > 0 && (
         <>
-          <ProductTable products={products} type={type} message={message} />
+          <ProductTable products={products} type={type} message={message} advice={bestChoise} />
           <AdditionalInfo products={products} />
         </>
       )}

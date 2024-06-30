@@ -16,13 +16,14 @@ const results = {
         monthlyWaterCost: "37 Bs",
         annualWaterCost: "446 Bs",
         fourYearTotalCost: "7411 Bs",
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6323/6323150_sd.jpg;maxHeight=2000;maxWidth=2000",
+        image:
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6506/6506083_sd.jpg;maxHeight=640;maxWidth=550",
         ranking: 1,
       },
       {
         providerName: "Samsung",
         modelIdentifier: "WF45R6100AW",
-        cost: "6959.93 Bs",
+        cost: "6959 Bs",
         volume: "127 litros",
         consumption: "95 kWh/año",
         waterConsumption: "14 m³/año",
@@ -33,7 +34,8 @@ const results = {
         monthlyWaterCost: "33 Bs",
         annualWaterCost: "393 Bs",
         fourYearTotalCost: "8856 Bs",
-        image: "https://image-us.samsung.com/SamsungUS/home/92121/02102022/gal/w/WF45B6300AW_01_White_SCOM.jpg?$product-details-jpg$",
+        image:
+          "https://image-us.samsung.com/SamsungUS/home/92121/02102022/gal/w/WF45B6300AW_01_White_SCOM.jpg?$product-details-jpg$",
         ranking: 2,
       },
       {
@@ -50,8 +52,10 @@ const results = {
         monthlyWaterCost: "33 Bs",
         annualWaterCost: "395 Bs",
         fourYearTotalCost: "6449 Bs",
-        image: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397853_sd.jpg;maxHeight=640;maxWidth=550",
+        image:
+          "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6397/6397853_sd.jpg;maxHeight=640;maxWidth=550",
         ranking: 3,
+        advice: "Te recomendamos la lavadora LG WM3400CW en vez de la lavadora General electric GFW550SPRRS.",
         message: [
           "Ahorras 963 Bolivianos en un período de uso de 4 años. ¡Eso es suficiente para más de 100 entradas al cine!",
           "Reduces 5.8 kg de CO2 al año. ¡Los osos polares te lo agradecerán!",
@@ -66,21 +70,22 @@ const results = {
       {
         providerName: "Frigidaire",
         modelIdentifier: "GHWQ083WC1",
-        cost: "3340.8 Bs",
+        cost: "3340 Bs",
         volume: "8000 BTU/hr",
         consumption: "400 kWh/año",
-        monthlyConsumption: "33.3 kWh",
+        monthlyConsumption: "33 kWh",
         co2Emissions: "40 kg",
         monthlyEnergyCost: "29 Bs",
         annualEnergyCost: "344 Bs",
-        fourYearTotalCost: "4716.8 Bs",
-        image: "https://mobileimages.lowes.com/productimages/e4eb6046-005e-438e-82df-68662a1c41f5/42168934.jpg?size=pdhism",
+        fourYearTotalCost: "4716 Bs",
+        image:
+          "https://mobileimages.lowes.com/productimages/e4eb6046-005e-438e-82df-68662a1c41f5/42168934.jpg?size=pdhism",
         ranking: 1,
       },
       {
         providerName: "LG",
         modelIdentifier: "LW8022IVSM",
-        cost: "2916.2 Bs",
+        cost: "2916 Bs",
         volume: "8000 BTU/hr",
         consumption: "384.4 kWh/año",
         monthlyConsumption: "32 kWh",
@@ -88,10 +93,12 @@ const results = {
         monthlyEnergyCost: "27 Bs",
         annualEnergyCost: "330 Bs",
         fourYearTotalCost: "4238 Bs",
-        image: "https://mobileimages.lowes.com/productimages/dde4a4fc-055f-4c01-8ffc-ab3f671bb27c/63224342.jpg?size=pdhism",
+        image:
+          "https://mobileimages.lowes.com/productimages/dde4a4fc-055f-4c01-8ffc-ab3f671bb27c/63224342.jpg?size=pdhism",
         ranking: 2,
+        advice: "Te recomendamos la unidad de aire acondiconado LG  LW8022IVSM en vez de la unidad de aire acondicionardo Firgidaire GHWQ083WC1.",
         message: [
-          "Ahorras 478.224 Bolivianos en un período de uso de 4 años. ¡Eso es suficiente para más de 50 tazas de café de tu cafetería favorita!",
+          "Ahorras 557 Bolivianos en un período de uso de 4 años. ¡Eso es suficiente para más de 50 tazas de café de tu cafetería favorita!",
           "Reduces 1.56 kg de CO2 al año. ¡Es como evitar que un coche pequeño recorra 6.2 km!",
           "Consumiendo 15.6 kWh menos por año, puedes usar tu portátil durante casi 3 meses adicionales.",
         ],
@@ -107,7 +114,8 @@ const results = {
         monthlyEnergyCost: "28 Bs",
         annualEnergyCost: "344 Bs",
         fourYearTotalCost: "4159 Bs",
-        image: "https://mobileimages.lowes.com/productimages/5440f9c5-4b60-4285-a316-1a1d0a6ff0cf/67245515.jpeg?size=pdhism",
+        image:
+          "https://mobileimages.lowes.com/productimages/5440f9c5-4b60-4285-a316-1a1d0a6ff0cf/67245515.jpeg?size=pdhism",
         ranking: 3,
       },
     ],
